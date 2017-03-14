@@ -6,10 +6,8 @@ sum: .word 0
 .text
 .globl main
 main:
-	lw $t0, a
-
-	lw $t1, b
+	lw $t0, a
+	lw $t1, b
 	add $t0, $t1, $t2
 	sw $t2, sum
-
 .end main
